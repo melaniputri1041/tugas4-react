@@ -28,7 +28,7 @@ const Person = (props) => {
         <img src={props.gambar} alt="Gambar" width ="300" height= "200"/>
         {des && <p style={{textAlign: 'justify'}}>{props.deskripsi}</p>}        
         <button style={{background : suka?'blue':'green'}} onClick={()=>Like()}>{suka?'suka':'tidak suka'}</button>
-        <button onClick={desk}> {des?'sembunyikan':'tampilkan'} </button>
+        <button onClick={desk}> {des?'sembunyikan':'Selengkapnya'} </button>
     </div>
     )
 }
